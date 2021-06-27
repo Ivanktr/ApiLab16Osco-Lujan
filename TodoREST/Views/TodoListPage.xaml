@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="TodoREST.Views.TodoListPage"
-             Title="Schools">
+             Title="People">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnAddItemClicked">
             <ToolbarItem.IconImageSource>
@@ -23,7 +23,7 @@
                                  Orientation="Horizontal">
                         <Label Text="{Binding Name}" 
                                VerticalTextAlignment="Center" />
-                        <Label Text="{Binding FoundationDate}" 
+                        <Label Text="{Binding Birthday}" 
                                VerticalTextAlignment="Center" />
                     </StackLayout>
                 </ViewCell>
